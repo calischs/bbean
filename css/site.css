@@ -1,12 +1,8 @@
 @charset "UTF-8";
 
-body {
-	background-color:#F7F7F7;
-}
-
-.container{
-	position: relative;
-	margin-left:10%;
+body{
+	color: #111111;
+	background-color:#EEEEEE;
 }
 
 h1{
@@ -53,4 +49,11 @@ body#recipe a#nav-recipe
 	background-color:#3A393A;
 }
 
+.container{
+	position: relative;
+	margin-left:10%;
+}
 
+.expand a,li{
+	color:#111111;
+}
