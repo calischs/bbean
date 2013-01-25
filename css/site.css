@@ -96,7 +96,7 @@ li{
   margin-top: 20px ;
   margin-left: 30px ;
   width: 1000px;
-  height:1000px;
+  height:500px; /*this will need to be dynamic at some point...*/
 }
 
 .container img {
@@ -130,7 +130,7 @@ li{
 
 
 .container li a:hover + img {
-  left: 150px;
+  /*left: 150px;*/
   opacity: 1;
 }
 
@@ -159,4 +159,7 @@ li{
 .m{color:#5C832F;} /*measurement style*/
 .instruct{margin-left:210px;} /*instructions of recipe*/
 
-.flickr{margin:20px;text-align:center;}
+.flickr{
+	margin-top: 20px;
+	text-align:center;
+}
