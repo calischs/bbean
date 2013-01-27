@@ -163,3 +163,11 @@ li{
 	margin-top: 20px;
 	text-align:center;
 }
+
+/*this is the index photo of sarah and dan*/
+
+img.alpha{
+  border-style: none;
+  padding-right:15px;
+  float:right;
+}
