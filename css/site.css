@@ -14,7 +14,7 @@ body{
 
 /*container for content after nav bar*/
 #content {
-	width:750px;
+	width:775px;
 	margin:0px auto; 
 	text-align:justify; 
 	padding:15px;
@@ -57,6 +57,7 @@ body{
 	background-image:url(../img/navsprite.png);
 	margin:0px;
 	float:left;
+	margin-left:10px;
 	margin-bottom:10px;
 	margin-top:10px;
 }
@@ -65,23 +66,20 @@ body{
 .home {width:80px;background-position:-64px 0px;}
 .home:hover, body#home a.home {background-position:-64px -35px;}
 
-.blog {width:110px;background-position:-1250px 0px;}
+.blog {width:130px;background-position:-1250px 0px;}
 .blog:hover, body#blog a.blog {background-position:-1250px -35px;}
 
-.news {width:208px;background-position:-208px 0px;}
+.news {width:228px;background-position:-208px 0px;}
 .news:hover, body#newsletters a.news {background-position:-208px -35px;}
 
-.contact {width:130px;background-position:-454px 0px;}
+.contact {width:150px;background-position:-454px 0px;}
 .contact:hover, body#contact a.contact {background-position:-454px -35px;}
 
-.csa {width:83px;background-position:-686px 0px;}
+.csa {width:113px;background-position:-686px 0px;}
 .csa:hover, body#csa a.csa {background-position:-686px -35px;}
 
-.gallery {width:144px;background-position:-863px 0px;}
+.gallery {width:164px;background-position:-863px 0px;}
 .gallery:hover, body#gallery a.gallery {background-position:-863px -35px;}
-
-.recipes {width:144px;background-position:-1071px 0px;}
-.recipes:hover, body#recipe a.recipes {width:144px;background-position:-1071px -35px;}
 
 .clear{clear:both;}
 
@@ -96,6 +94,13 @@ img.rightWrap{
   padding:10px;
   float:right;
 }
+
+img.leftWrap{
+  border-style: none;
+  padding:10px;
+  float:left;
+}
+
 
 ul{  
 	list-style-type: none;
